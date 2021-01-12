@@ -1,5 +1,5 @@
 default-image: jazzcash-custom-stack
-default-pipeline: default
+default-pipeline: jazzcash-custom-stack-test-build-deploy-pipeline
 images:
 - id: jazzcash-custom-stack
   image: $IMAGE_REGISTRY_ORG/jazzcash-custom-stack:0.4

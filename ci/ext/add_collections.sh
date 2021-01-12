@@ -144,7 +144,7 @@ do
                             fi
                         fi
                         yq p -i $one_stack stacks.[+]
-                        yq m -a -i $index_file_v2_temp $one_stack
+                        yq m --append -i $index_file_v2_temp $one_stack
                     fi
                     if [ -f $one_stack ]
                     then
