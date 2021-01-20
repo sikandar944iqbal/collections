@@ -1,0 +1,46 @@
+[?1049h[?1h=[1;36r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[36;1H"/tmp/oc-edit-tl3bq.yaml" 79L, 2161C[1;1H# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: kabanero.io/v1alpha2
+kind: Kabanero
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |[10;7H{"apiVersion":"kabanero.io/v1alpha2","kind":"Kabanero","metadata":{"annotations":{},"name":"kabanero","namespacee[11;1H":"kabanero"},"spec":{"collections":{"repositories":[{"activateDefaultCollections":true,"name":"custom","url":"https://[12;1H/github.com/JazzCash/collections/releases/download/0.2.3-custom/kabanero-index.yaml"}]},"version":"0.9.0"}}
+  creationTimestamp: "2020-10-15T13:12:09Z"
+  finalizers:
+  - kabanero.io.kabanero-operator
+  generation: 6
+  name: kabanero
+  namespace: kabanero
+  resourceVersion: "188386269"
+  selfLink: /apis/kabanero.io/v1alpha2/namespaces/kabanero/kabaneros/kabanero
+  uid: 05b4eb2d-8386-4193-9dc6-82763443b852
+spec:
+  admissionControllerWebhook: {}
+  cliServices: {}
+  codeReadyWorkspaces:
+    operator:[27;7HcustomResourceInstance:[28;9HdevFileRegistryImage: {}
+  collectionController: {}
+  events: {}
+  github: {}
+  gitops: {}
+  governancePolicy: {}
+  landing: {}
+  sso: {}[1;1H[?12l[?25h[?25l[36;1HType  :quit<Enter>  to exit Vim[36;32H[K[1;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[36;1H[1m-- INSERT --[m[36;13H[K[1;1H[K[1;1H[?12l[?25h[?25lc[?12l[?25h[?25l[36;1H[K[1;1H[?12l[?25h[?25l[36;1HType  :quit<Enter>  to exit Vim[1;1H[?12l[?25h[?25l[?12l[?25h
+
+
+
+
+
+
+  
+    [10;7H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[13;3H
+  
+  
+  
+  
+  [?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[36;1H[1m-- INSERT --[m[36;13H[K[18;3H[K[18;1H[?12l[?25h[?25lc[?12l[?25h[?25l[36;1H[K[18;1H[?12l[?25h[?25l[36;1HType  :quit<Enter>  to exit Vim[18;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[36;1H[?1l>[?1049lVim: Error reading input, exiting...
+Vim: preserving files...
+Vim: Finished.
+[36;1H
